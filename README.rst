@@ -17,6 +17,7 @@ Cookiecutter PyPackage
 Cookiecutter_ template for a Python package, forked from `audreyr/cookiecutter-pypackage`_.
 
 * Free software: BSD license
+* Primarily inspired by: `waynerv/cookiecutter-pypackage`_
 
 Features
 --------
@@ -31,6 +32,7 @@ Features
 
 .. _Cookiecutter: https://github.com/cookiecutter/cookiecutter
 .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+.. _`waynerv/cookiecutter-pypackage`: https://github.com/waynerv/cookiecutter-pypackage
 
 Build Status
 -------------
@@ -80,20 +82,6 @@ For more details, see the `cookiecutter-pypackage tutorial`_.
 
 .. _`cookiecutter-pypackage tutorial`: https://cookiecutter-pypackage.readthedocs.io/en/latest/tutorial.html
 
-Not Exactly What You Want?
---------------------------
-
-Don't worry, you have options:
-
-Similar Cookiecutter Templates
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* `briggySmalls/cookiecutter-pypackage`_: A fork using Poetry_ for neat package management and deployment, with linting, formatting, no makefiles and more.
-
-* `zillionare/cookiecutter-pypackage`_: A template containing Poetry_, Mkdocs_, Github CI and many more. It's a template and a package also (can be installed with `pip`)
-
-* `waynerv/cookiecutter-pypackage`_: A fork using Poetry_, Mkdocs_, Pre-commit_, Black_ and Mypy_. Run test, staging and release workflows with GitHub Actions, automatically generate release notes from CHANGELOG.
-
 
 .. _Travis-CI: http://travis-ci.org/
 .. _Tox: http://testrun.org/tox/
@@ -108,7 +96,3 @@ Similar Cookiecutter Templates
 .. _Pre-commit: https://pre-commit.com/
 .. _Black: https://black.readthedocs.io/en/stable/
 .. _Mypy: https://mypy.readthedocs.io/en/stable/
-
-.. _`briggySmalls/cookiecutter-pypackage`: https://github.com/briggySmalls/cookiecutter-pypackage
-.. _`zillionare/cookiecutter-pypackage`: https://github.com/zillionare/python-project-wizard
-.. _`waynerv/cookiecutter-pypackage`: https://github.com/waynerv/cookiecutter-pypackage
